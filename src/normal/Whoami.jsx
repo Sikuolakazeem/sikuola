@@ -4,9 +4,9 @@ import AnimatedText from "./AnimatedText";
 
 function Whoami() {
   return (
-    <section className="md:fixed left-[10%] md:w-[calc(38%-2rem)] page-transition">
+    <section className="md:fixed left-[10%] md:w-[calc(38%-2rem)] page-transition mb-15">
       <div className="flex flex-col gap-1">
-        <h1 className="text-text-faint text-[3rem] tracking-wider lg:text-[3rem]">
+        <h1 className="text-text-faint text-[3rem] tracking-wider lg:text-[3.3rem]">
           {data.name}
         </h1>
 

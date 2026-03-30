@@ -6,7 +6,7 @@ function Resume() {
     <Link
       to="/resume"
       target="_blank"
-      className="flex items-center gap-3 text-[1.3rem] font-bold text-text-faint"
+      className="flex items-center gap-3  font-bold text-text-faint"
     >
       View Full Resume
       <span>
