@@ -18,7 +18,7 @@ function Whoami() {
           <p className="whitespace=wrap w-[95%] md:w-[90%]">{data.bio}</p>
         </div>
 
-        <div className="self-start">
+        <div className="self-start mt-1">
           <SocialIcons />
         </div>
       </div>

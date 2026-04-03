@@ -6,7 +6,7 @@ export default function AnimatedText() {
       sequence={["Software Engineer", 2000, "FullStack Developer", 2000]}
       speed={50}
       repeat={Infinity}
-      className="text-text-dark text-[1rem] uppercase lg:text-[3rem] tracking-wider"
+      className="text-text-dark uppercase lg:text-[1.5rem] tracking-wider"
     />
   );
 }
