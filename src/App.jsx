@@ -14,15 +14,15 @@ function App() {
     <BrowserRouter>
       <Suspense fallback={<SpinnerFull />}>
         <Routes>
+          <Route path="/" element={<PageNormal />} />
           <Route
-            path="/"
+            path="/terminal"
             element={
               <TerminalProvider>
                 <PageTerminal />
               </TerminalProvider>
             }
           />
-          <Route path="/page" element={<PageNormal />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </Suspense>
